@@ -1,0 +1,17 @@
+/* nav bar and header */
+nav{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+nav section input{
+    flex-grow: 1;
+    max-width: 40%;
+}
+#logo{
+    height: 50px;
+    width: auto;
+}
