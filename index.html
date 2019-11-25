@@ -21,81 +21,85 @@
               </section>
           </nav>
         </header>
-        <section id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YVkUvmDQ3HY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p id="video_name">Eminem - Without me</p>
-            <p id="views">842,988,927 views</p>
-            <img id="thumbs_up" src="images/thumbs_up.jpg">
-            <img id="thumbs_down" src="images/thumbs_down.jpg">
-        </section>
-        <section id="artist_detail">
-            <img id ="artist_avatar" src ="images/avatar.jpg">
-            <p id ="artist_name">Eminem Music</p>
-            <p id ="suscribers">39.8M suscribers</p>
-            <p id="detail_info">
-              iTunes: <a href ="http://smarturl.it/WithoutMe" target="blank"> http://smarturl.it/WithoutMe </a>  <br>
-              Amazon: <a href ="http://smarturl.it/WithoutMeAmz" target="blank"> http://smarturl.it/WithoutMeAmz</a> <br>
-              Google Play: <a href ="http://smarturl.it/WithoutMeGP" target="blank">http://smarturl.it/WithoutMeGP</a> <br> 
-            </p>
-            <p id="show_more" class="actions" >SHOW MORE</p>
-        </section>
-        <section>
+        <section id="page_layout">
+          <section id="video">
+              <iframe src="https://www.youtube.com/embed/YVkUvmDQ3HY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p id="video_name">Eminem - Without me</p>
+              <section>
+                <p id="views">842,988,927 views</p>
+                <img id="thumbs_up" class="thumbs" src="images/thumbs_up.jpg">
+                <img id="thumbs_down" class="thumbs" src="images/thumbs_down.jpg">
+              </section>
+              <section id="artist_detail">
+                <img id ="artist_avatar" src ="images/avatar.jpg">
+                <p id ="artist_name">Eminem Music</p>
+                <p id ="suscribers">39.8M suscribers</p>
+                <p id="detail_info">
+                  iTunes: <a href ="http://smarturl.it/WithoutMe" target="blank"> http://smarturl.it/WithoutMe </a>  <br>
+                  Amazon: <a href ="http://smarturl.it/WithoutMeAmz" target="blank"> http://smarturl.it/WithoutMeAmz</a> <br>
+                  Google Play: <a href ="http://smarturl.it/WithoutMeGP" target="blank">http://smarturl.it/WithoutMeGP</a> <br> 
+                </p>
+                <p id="show_more" class="actions" >SHOW MORE</p>
+            </section>
+          </section>
+          <aside class="recom">
+            <section id = " ad_banner">
+              <img src="images/microverse_ad.jpeg" alt="microverse ad">
+            </section>
+            <section id="rel_vid_control">
+              <p id="up_nxt">Up Next</p>
+              <p id="autoplay" class ="actions">Autoplay</p>
+            </section>
+            <section id=nxt_vid>
+              <img id="nxt_thumbnail" src="images/nxt thumb.png" alt="nxt video thumb">
+              <p id="vid_title">Eminem - The Real Slim Shady (Official Video - Clean Version)</p>
+              <p id="vid_artist_name">Eminem Music</p>
+              <p id="nxt_vid_views">420M Views</p>
+            </section>
+            <section id=vid_mix>
+                <img id="mix_thumbnail" src="images/mix thumb.png" alt="mix video thumb">
+                <p id="mix_title">Mix - Eminem - Without me</p>
+                <p id="mix_artist_name">YouTube</p>
+            </section>
+            <section id=nxt_vid>
+                <img id="first_vid_thumbnail" src="images/first thumb.png" alt="first video thumb">
+                <p id="first_first_vid_title">Dr Dre ft. Snoop Dog - Still D.R.E. (Official Video)- Clean Version)</p>
+                <p id="first_vid_artist_name">Dr D.R.E.</p>
+                <p id="first_vid_views">684M Views</p>
+            </section>
+          </aside>
           <section>
-            <p id="comments_number">200,917 Comments</p>
-            <p class="actions">Sort by</p>
-            <img id="user_avatar" class="avatar" src="images/user_avatar.png">
-            <input type="text">
-            <button id="comment_cancel">Cancel</button>
-           <button id="comment_comment">Comment</button>
-         </section>
-          <section id="first_comment" class="people_comm">
-            <img id="comment_1_img" class="avatar" src="images/comment_1.jpg">
-            <p id="comment_1_name">Poizins</p>
-            <p id="comment_1_date">3 months ago</p>
-            <p id="comment_1_comm">No one will ever know how this got 10k likes</p>
-            <img id="thumbs_up_comm1" class="thumbs" src="images/thumbs_up.jpg">
-            <p id="comment_1_likes">16,716</p>
-            <img id="thumbs_down_comm1" class="thumbs" src="images/thumbs_down.jpg">
-            <p id="comment_1_reply">REPLY</p>
-            <p id="comment_1_replies">See 188 replies</p>
+            <section>
+              <p id="comments_number">200,917 Comments</p>
+              <p class="actions">Sort by</p>
+              <img id="user_avatar" class="avatar" src="images/user_avatar.png">
+              <input type="text">
+              <button id="comment_cancel">Cancel</button>
+            <button id="comment_comment">Comment</button>
           </section>
-          <section id="second_comment" class="people_comm">
-            <img id="comment_2_img" class="avatar" src="images/comment_2.jpg">
-            <p id="comment_2_name">Salim Zighe</p>
-            <p id="comment_2_date">2 days ago</p>
-            <p id="comment_2_comm">The only other rapper that's better than eminem is definitely slim shady</p>
-            <img id="thumbs_up_comm2" class="thumbs" src="images/thumbs_up.jpg">
-            <p id="comment_2_likes">64</p>
-            <img id="thumbs_down_comm2" class="thumbs" src="images/thumbs_down.jpg">
-            <p id="comment_2_reply">REPLY</p>
-            <p id="comment_2_replies">See 3 replies</p>
+            <section id="first_comment" class="people_comm">
+              <img id="comment_1_img" class="avatar" src="images/comment_1.jpg">
+              <p id="comment_1_name">Poizins</p>
+              <p id="comment_1_date">3 months ago</p>
+              <p id="comment_1_comm">No one will ever know how this got 10k likes</p>
+              <img id="thumbs_up_comm1" class="thumbs" src="images/thumbs_up.jpg">
+              <p id="comment_1_likes">16,716</p>
+              <img id="thumbs_down_comm1" class="thumbs" src="images/thumbs_down.jpg">
+              <p id="comment_1_reply">REPLY</p>
+              <p id="comment_1_replies">See 188 replies</p>
+            </section>
+            <section id="second_comment" class="people_comm">
+              <img id="comment_2_img" class="avatar" src="images/comment_2.jpg">
+              <p id="comment_2_name">Salim Zighe</p>
+              <p id="comment_2_date">2 days ago</p>
+              <p id="comment_2_comm">The only other rapper that's better than eminem is definitely slim shady</p>
+              <img id="thumbs_up_comm2" class="thumbs" src="images/thumbs_up.jpg">
+              <p id="comment_2_likes">64</p>
+              <img id="thumbs_down_comm2" class="thumbs" src="images/thumbs_down.jpg">
+              <p id="comment_2_reply">REPLY</p>
+              <p id="comment_2_replies">See 3 replies</p>
+            </section>
           </section>
         </section>
-        <aside class="recom">
-          <section id = " ad_banner">
-            <img src="images/microverse_ad.jpeg" alt="microverse ad">
-          </section>
-          <section id="rel_vid_control">
-            <p id="up_nxt">Up Next</p>
-            <p id="autoplay" class ="actions">Autoplay</p>
-          </section>
-          <section id=nxt_vid>
-            <img id="nxt_thumbnail" src="images/nxt thumb.png" alt="nxt video thumb">
-            <p id="vid_title">Eminem - The Real Slim Shady (Official Video - Clean Version)</p>
-            <p id="vid_artist_name">Eminem Music</p>
-            <p id="nxt_vid_views">420M Views</p>
-          </section>
-          <section id=vid_mix>
-              <img id="mix_thumbnail" src="images/mix thumb.png" alt="mix video thumb">
-              <p id="mix_title">Mix - Eminem - Without me</p>
-              <p id="mix_artist_name">YouTube</p>
-          </section>
-          <section id=nxt_vid>
-              <img id="first_vid_thumbnail" src="images/first thumb.png" alt="first video thumb">
-              <p id="first_first_vid_title">Dr Dre ft. Snoop Dog - Still D.R.E. (Official Video)- Clean Version)</p>
-              <p id="first_vid_artist_name">Dr D.R.E.</p>
-              <p id="first_vid_views">684M Views</p>
-          </section>
-        </aside>
     </body>
 </html>
