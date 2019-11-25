@@ -4,22 +4,13 @@ nav{
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
-nav section{
-    flex-grow: 1;
-    }
-
 nav section input{
-    width: 50%;
-    height: 30px;
-    } 
-.buttons{
-    height: 30px;
+    flex-grow: 1;
+    max-width: 40%;
 }
-
 #logo{
     height: 50px;
     width: auto;
