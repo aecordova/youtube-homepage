@@ -40,12 +40,19 @@ nav section input{
     width: auto;
 }
 .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 5%;
+}
+#artist_avatar{
     height: 75px;
     width: 75px;
     border-radius: 50%;
     margin-right: 25px;
+    margin-left: 0%;
 }
-
 #page_layout{
     padding: 2%;
     display: flex;
@@ -116,4 +123,34 @@ nav section input{
 .recom{
     max-width: 100%;
     width: 30%;
+}
+
+/* Comments */
+
+#user_avatar_s div{
+    display: flex;
+    flex-flow: row;
+    padding-left: 8%;
+}
+#comments_number{
+    margin-right: 50px;
+}
+#user_input{
+    display: flex;
+    align-items: center;
+}
+.months{
+    color: gray;
+}
+.comm{
+    display: flex;
+    align-items: center;
+}
+.like{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.comment_1_replies{
+    padding-left: 5%;
 }
