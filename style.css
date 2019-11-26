@@ -10,7 +10,7 @@ nav{
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
-    
+    background-color: lightgray;
 }
 nav section{
     flex-grow: 1;
@@ -61,6 +61,30 @@ nav section input{
     width: 840px;
     height: 420px;
     flex-grow: 2;
+}
+
+/* Aside videos */
+
+.as_vid{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+#rel_vid_control{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-right: 82px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+.as_vid p{
+    width: 40%;
 }
 
 .recom{
