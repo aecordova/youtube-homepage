@@ -19,7 +19,8 @@ nav section{
 nav section input{
     width: 50%;
     height: 30px;
-    } 
+} 
+
 .buttons{
     height: 30px;
 }
@@ -42,18 +43,27 @@ nav section input{
 #page_layout{
     padding: 2%;
     display: flex;
-    flex-flow: wrap;
+    flex-wrap: wrap;
+    border: 3px;
 }
 
 /* Main video Section */
 
 #video{
-    flex-grow: 1;
-    width: 1500px;
+    flex-grow: 2;
+
+  
 }
-/* LETS LOOK AT THIS TODAY
+
+/*LETS LOOK AT THIS TODAY*/
+
 #video iframe{
-    width: 100%;
-    height: 60%;
+    width: 840px;
+    height: 420px;
+    flex-grow: 2;
 }
-*/
+
+.recom{
+    max-width: 100%;
+    width: 30%;
+}
