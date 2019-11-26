@@ -2,6 +2,10 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+.actions{
+   color: gray;
+
+}
 /* nav bar and header */
 nav{
     display: flex;
@@ -37,7 +41,9 @@ nav section input{
 }
 .avatar{
     height: 75px;
-    width: auto;
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 25px;
 }
 
 #page_layout{
@@ -51,11 +57,7 @@ nav section input{
 
 #video{
     flex-grow: 2;
-
-  
 }
-
-/*LETS LOOK AT THIS TODAY*/
 
 #video iframe{
     width: 840px;
@@ -63,6 +65,30 @@ nav section input{
     flex-grow: 2;
 }
 
+#video_name{
+    font-size: 1.5em;
+}
+#views_thumbs{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12%;
+    margin-bottom: 10px;
+    
+}
+
+#artist_detail div{
+    display: flex;
+    flex-flow: row;
+} 
+#detail_info{
+    padding-left: 100px;
+}
+
+#show_more{
+    padding-left: 100px;
+}
 /* Aside videos */
 
 .as_vid{
