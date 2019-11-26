@@ -12,14 +12,20 @@ nav{
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
     background-color: lightgray;
 }
-nav section{
+.emb{
+    height: 15px;
+    width: auto;
+}
+#searchbar{
     flex-grow: 1;
+    margin-left: 22%;
+    align-items: center;
     }
-
+#nav_buttons{
+    padding-right: 1%;
+}
 nav section input{
     width: 50%;
     height: 30px;
@@ -27,6 +33,9 @@ nav section input{
 
 .buttons{
     height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    align-self: center;
 }
 
 #logo{
@@ -82,9 +91,7 @@ nav section input{
     justify-content: space-between;
     padding-right: 12%;
     margin-bottom: 10px;
-    
 }
-
 #artist_detail div{
     display: flex;
     flex-flow: row;
@@ -97,7 +104,11 @@ nav section input{
     padding-left: 100px;
 }
 /* Aside videos */
-
+#subs{
+    height: 30px;
+    align-self: center;
+    margin-left: 3%;
+}
 .as_vid{
     display: flex;
     flex-flow: wrap;
