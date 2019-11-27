@@ -1,0 +1,167 @@
+/* font family */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.actions{
+   color: gray;
+
+}
+/* nav bar and header */
+nav{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+.emb{
+    height: 15px;
+    width: auto;
+}
+#searchbar{
+    flex-grow: 1;
+    margin-left: 22%;
+    align-items: center;
+    }
+#nav_buttons{
+    padding-right: 1%;
+}
+nav section input{
+    width: 50%;
+    height: 30px;
+} 
+
+.buttons{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#logo{
+    height: 50px;
+    width: auto;
+}
+
+/* Page layout */
+.thumbs{
+    height: 25px;
+    width: auto;
+}
+.avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 5%;
+}
+#artist_avatar{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-left: 0%;
+}
+#page_layout{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px;
+}
+
+/* Main video Section */
+
+#video{
+    flex-grow: 2;
+}
+
+#video iframe{
+    width: 840px;
+    height: 420px;
+    flex-grow: 2;
+}
+
+#video_name{
+    font-size: 1.5em;
+}
+#views_thumbs{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12%;
+    margin-bottom: 10px;
+}
+#artist_detail div{
+    display: flex;
+    flex-flow: row;
+} 
+#detail_info{
+    padding-left: 100px;
+}
+
+#show_more{
+    padding-left: 100px;
+}
+/* Aside videos */
+#subs{
+    height: 30px;
+    align-self: center;
+    margin-left: 3%;
+}
+.as_vid{
+    display: flex;
+    flex-flow: wrap;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+#rel_vid_control{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-right: 82px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+.as_vid p{
+    width: 40%;
+}
+
+.recom{
+    max-width: 100%;
+    width: 30%;
+}
+
+/* Comments */
+
+#user_avatar_s div{
+    display: flex;
+    flex-flow: row;
+    padding-left: 8%;
+}
+#comments_number{
+    margin-right: 50px;
+}
+#user_input{
+    display: flex;
+    align-items: center;
+}
+.months{
+    color: gray;
+}
+.comm{
+    display: flex;
+    align-items: center;
+}
+.like{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.comment_1_replies{
+    padding-left: 5%;
+}

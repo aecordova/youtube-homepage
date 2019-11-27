@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href="style.css"/>
+      <title>
+        Youtube homepage
+      </title>
+    </head>
+    <body>
+      <header>
+          <nav>
+              <img  id="logo" src="images/logo.png" alt="youtubelogo">
+              <section id =searchbar>
+                <input type="search" placeholder="Search">
+                <button class="buttons"><img src="images/mag_glass.png" class="emb" alt="mag_glass"></button>
+              </section>
+              <section id="nav_buttons">
+                <button class="buttons"><img src="images/upload.png" class="emb" alt="upload_logo"></button>
+                <button class="buttons"><img src="images/sign.png" class="emb" alt="sign_in_logo"></button>
+                <button class="buttons"><img src="images/notifications.png" id="not" class="emb" alt="notifications"></button>
+              </section>
+          </nav>
+      </header>
+      <section id="page_layout">
+        <section id="video">
+            <iframe src="https://www.youtube.com/embed/YVkUvmDQ3HY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p id="video_name">Eminem - Without me</p>
+            <section id="views_thumbs">
+              <p id="views">842,988,927 views</p>
+              <div>
+                <img id="thumbs_up" class="thumbs" src="images/thumbs_up.jpg" alt="thumbsup">
+                <img id="thumbs_down" class="thumbs" src="images/thumbs_down.jpg" alt="thumbsdown">
+                <button id="share" class="vid_butt"><img src="images/share.png" alt="share" class="emb"></button>
+              </div>
+            </section>
+            <section id="artist_detail">
+              <div>
+                <img id ="artist_avatar" src ="images/avatar.jpg" class="avatar" alt="eminem">
+                <p><b>Eminem Music</b><br>
+                   39.8M suscribers</p>
+                  <button id="subs" class="vid_butt"><img src="images/subscribe.png" alt="subscribe" class="emb"> Subscribe</button>
+              </div>
+              <p id="detail_info">
+                iTunes: <a href ="http://smarturl.it/WithoutMe" target="blank"> http://smarturl.it/WithoutMe </a>  <br>
+                Amazon: <a href ="http://smarturl.it/WithoutMeAmz" target="blank"> http://smarturl.it/WithoutMeAmz</a> <br>
+                Google Play: <a href ="http://smarturl.it/WithoutMeGP" target="blank">http://smarturl.it/WithoutMeGP</a> <br> 
+              </p>
+              <p id="show_more" class="actions" >SHOW MORE</p>
+            </section>
+
+          </section>
+          <aside class="recom">
+            <section id="ad_banner">
+              <img src="images/microverse_ad.jpeg" alt="microverse ad">
+            </section>
+            <section id="rel_vid_control">
+              <p id="up_nxt">Up Next</p>
+              <p id="autoplay" class ="actions">Autoplay</p>
+            </section>
+            <section class="as_vid" id="nxt_vid">
+              <img id="nxt_thumbnail" src="images/nxt_thumb.png" alt="nxt_video_thumb">
+              <p id="vid_title"><b>Eminem - The Real Slim Shady (Official Video - Clean Version)</b><br>
+              Eminem Music <br>
+              420M Views</p>
+            </section>
+            <section class="as_vid" id=vid_mix>
+                <img id="mix_thumbnail" src="images/mix_thumb.png" alt="mix video thumb">
+                <p id="mix_title"><b>Mix - Eminem - Without me</b><br>
+                YouTube</p>
+            </section>
+            <section class="as_vid" id="first_vid">
+                <img id="first_vid_thumbnail" src="images/first_thumb.png" alt="first video thumb">
+                <p id="first_first_vid_title"><b>Dr Dre ft. Snoop Dog - Still D.R.E. (Official Video)- Clean Version)</b><br>
+                Dr D.R.E.<br>
+                684M Views</p>
+            </section>
+          </aside>
+        </section>
+        <section id="comments">
+          <section id="user_avatar_s">
+            <div>
+              <p id="comments_number">200,917 Comments</p>
+              <p class="actions">Sort by</p>
+            </div>
+            <div id="user_input">
+              <img id="user_avatar" class="avatar" src="images/user_avatar.png" alt="avatar">
+              <section>
+                <input type="text">
+                <button id="comment_cancel">Cancel</button>
+                <button id="comment_comment">Comment</button>
+              </section>
+            </div>
+        </section>
+          <section id="first_comment" class="people_comm">
+            <div class="comm">
+              <img id="comment_1_img" class="avatar" src="images/comment_1.jpg" alt="comment1">
+              <p id="comment_1_name">Poizins <span class="months">3 months ago</span><br>
+              No one will ever know how this got 10k likes</p>
+            </div>  
+            <div class="like">
+              <img id="thumbs_up_comm1" class="thumbs" src="images/thumbs_up.jpg" alt="thumbup1">
+              <p id="comment_1_likes">16,716</p>
+              <img id="thumbs_down_comm1" class="thumbs" src="images/thumbs_down.jpg" alt="thumbdown1">
+              <p class="comment_1_reply">REPLY</p>
+            </div>
+            <p class="comment_1_replies">See 188 replies</p>
+          </section>
+          <section id="second_comment" class="people_comm">
+            <div class="comm">
+              <img id="comment_2_img" class="avatar" src="images/comment_2.jpg" alt="comm2img">
+              <p id="comment_2_name">Salim Zighe <span class="months">2 days ago</span><br>
+              The only other rapper that's better than eminem is definitely slim shady</p>
+            </div>
+            <div class="like">
+              <img id="thumbs_up_comm2" class="thumbs" src="images/thumbs_up.jpg" alt="thumbup2">
+              <p id="comment_2_likes">64</p>
+              <img id="thumbs_down_comm2" class="thumbs" src="images/thumbs_down.jpg" alt="thumbdown2">
+              <p id="comment_2_reply" class="actions">REPLY</p>
+            </div>
+            <p class="comment_1_replies">See 3 replies</p>
+          </section>
+        </section>
+    </body>
+</html>
