@@ -2,10 +2,18 @@
 
 This is our first Microverse project ever, part of the HTML and CSS course!!
 
+In this project our goal was to replicate the page of a video in YouTube. We chosed a random video and replicated as close as possible to the actual page.
+
+## Tools
+
+We used stylelint to clean the code and look for errors.
+
 # Participants
 
-Angel Cordova : aecordova
+Angel Cordova : aecordova 
+email: ae_cordova@outlook.com
 Lucas Mazo: lucasmazo32
+email: lucasmazo32@gmail.com
 
 
 ## Requirements
